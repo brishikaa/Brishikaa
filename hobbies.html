@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Hobbies | Brishika Basnet</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #fff8e1, #e0f2f1);
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb74d;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 850px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    main h2 {
+      color: #f57c00;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .hobby-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      font-size: 1.1rem;
+    }
+
+    .hobby-item {
+      background-color: #fff3e0;
+      padding: 20px;
+      border-left: 6px solid #ffa726;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .hobby-item:hover {
+      transform: scale(1.03);
+    }
+
+    .hobby-item span {
+      font-size: 1.5rem;
+      margin-right: 10px;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ef6c00;
+      font-weight: bold;
+      margin: 0 15px;
+      padding: 10px 15px;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ef6c00;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      background: #eeeeee;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .hobby-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Hobbies</h1>
+  </header>
+
+  <main>
+    <h2>What I Love Doing 🌟</h2>
+    <div class="hobby-grid">
+      <div class="hobby-item"><span>🎨</span><strong>Drawing & Painting</strong><br>I love expressing creativity through art.</div>
+      <div class="hobby-item"><span>📚</span><strong>Reading Books</strong><br>Storybooks and comics are my favorite.</div>
+      <div class="hobby-item"><span>🎮</span><strong>Playing Games</strong><br>Both indoor and mobile games keep me active and excited.</div>
+      <div class="hobby-item"><span>🎧</span><strong>Listening to Music</strong><br>Music makes me feel relaxed and happy.</div>
+      <div class="hobby-item"><span>🌱</span><strong>Gardening</strong><br>I enjoy planting flowers and taking care of nature.</div>
+    </div>
+  </main>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Introduction</a>
+    <a href="favourites.html">Favourites</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <footer>
+    &copy; 2025 Brishika Basnet | All rights reserved
+  </footer>
+</body>
+</html>
